@@ -1,0 +1,1750 @@
+[
+  {
+    "id": "1792030688832",
+    "timestamp": 1792030688832,
+    "request": {
+      "id": "1792030687614",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 422,
+      "statusText": "Unprocessable Content",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:18:08 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"message\":\"User atau password anda salah.\",\"errors\":{\"email\":[\"User atau password anda salah.\"]}}",
+      "time": 1206,
+      "size": 98,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792030718420",
+    "timestamp": 1792030718420,
+    "request": {
+      "id": "1792030718312",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 422,
+      "statusText": "Unprocessable Content",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:18:38 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"message\":\"User atau password anda salah.\",\"errors\":{\"email\":[\"User atau password anda salah.\"]}}",
+      "time": 100,
+      "size": 98,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792030720539",
+    "timestamp": 1792030720539,
+    "request": {
+      "id": "1792030720452",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 422,
+      "statusText": "Unprocessable Content",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:18:40 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"message\":\"User atau password anda salah.\",\"errors\":{\"email\":[\"User atau password anda salah.\"]}}",
+      "time": 81,
+      "size": 98,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792030727117",
+    "timestamp": 1792030727117,
+    "request": {
+      "id": "1792030726023",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "connection": "close",
+        "content-type": "text/html; charset=UTF-8",
+        "date": "Thu, 15 Oct 2026 02:18:47 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "<script> Sfdump = window.Sfdump || (function (doc) { doc.documentElement.classList.add('sf-js-enabled'); var rxEsc = /([.*+?^${}()|\\[\\]\\/\\\\])/g, idRx = /\\bsf-dump-\\d+-ref[012]\\w+\\b/, keyHint = 0 <= navigator.platform.toUpperCase().indexOf('MAC') ? 'Cmd' : 'Ctrl', addEventListener = function (e, n, cb) { e.addEventListener(n, cb, false); }; if (!doc.addEventListener) { addEventListener = function (element, eventName, callback) { element.attachEvent('on' + eventName, function (e) { e.preventDefault = function () {e.returnValue = false;}; e.target = e.srcElement; callback(e); }); }; } function toggle(a, recursive) { var s = a.nextSibling || {}, oldClass = s.className, arrow, newClass; if (/\\bsf-dump-compact\\b/.test(oldClass)) { arrow = '&#9660;'; newClass = 'sf-dump-expanded'; } else if (/\\bsf-dump-expanded\\b/.test(oldClass)) { arrow = '&#9654;'; newClass = 'sf-dump-compact'; } else { return false; } if (doc.createEvent && s.dispatchEvent) { var event = doc.createEvent('Event'); event.initEvent('sf-dump-expanded' === newClass ? 'sfbeforedumpexpand' : 'sfbeforedumpcollapse', true, false); s.dispatchEvent(event); } a.lastChild.innerHTML = arrow; s.className = s.className.replace(/\\bsf-dump-(compact|expanded)\\b/, newClass); if (recursive) { try { a = s.querySelectorAll('.'+oldClass); for (s = 0; s < a.length; ++s) { if (-1 == a[s].className.indexOf(newClass)) { a[s].className = newClass; a[s].previousSibling.lastChild.innerHTML = arrow; } } } catch (e) { } } return true; }; function collapse(a, recursive) { var s = a.nextSibling || {}, oldClass = s.className; if (/\\bsf-dump-expanded\\b/.test(oldClass)) { toggle(a, recursive); return true; } return false; }; function expand(a, recursive) { var s = a.nextSibling || {}, oldClass = s.className; if (/\\bsf-dump-compact\\b/.test(oldClass)) { toggle(a, recursive); return true; } return false; }; function collapseAll(root) { var a = root.querySelector('a.sf-dump-toggle'); if (a) { collapse(a, true); expand(a); return true; } return false; } function reveal(node) { var previous, parents = []; while ((node = node.parentNode || {}) && (previous = node.previousSibling) && 'A' === previous.tagName) { parents.push(previous); } if (0 !== parents.length) { parents.forEach(function (parent) { expand(parent); }); return true; } return false; } function highlight(root, activeNode, nodes) { resetHighlightedNodes(root); Array.from(nodes||[]).forEach(function (node) { if (!/\\bsf-dump-highlight\\b/.test(node.className)) { node.className = node.className + ' sf-dump-highlight'; } }); if (!/\\bsf-dump-highlight-active\\b/.test(activeNode.className)) { activeNode.className = activeNode.className + ' sf-dump-highlight-active'; } } function resetHighlightedNodes(root) { Array.from(root.querySelectorAll('.sf-dump-str, .sf-dump-key, .sf-dump-public, .sf-dump-protected, .sf-dump-private')).forEach(function (strNode) { strNode.className = strNode.className.replace(/\\bsf-dump-highlight\\b/, ''); strNode.className = strNode.className.replace(/\\bsf-dump-highlight-active\\b/, ''); }); } return function (root, x) { root = doc.getElementById(root); var indentRx = new RegExp('^('+(root.getAttribute('data-indent-pad') || ' ').replace(rxEsc, '\\\\$1')+')+', 'm'), options = {\"maxDepth\":1,\"maxStringLength\":160,\"fileLinkFormat\":false}, elt = root.getElementsByTagName('A'), len = elt.length, i = 0, s, h, t = []; while (i < len) t.push(elt[i++]); for (i in x) { options[i] = x[i]; } function a(e, f) { addEventListener(root, e, function (e, n) { if ('A' == e.target.tagName) { f(e.target, e); } else if ('A' == e.target.parentNode.tagName) { f(e.target.parentNode, e); } else { n = /\\bsf-dump-ellipsis\\b/.test(e.target.className) ? e.target.parentNode : e.target; if ((n = n.nextElementSibling) && 'A' == n.tagName) { if (!/\\bsf-dump-toggle\\b/.test(n.className)) { n = n.nextElementSibling || n; } f(n, e, true); } } }); }; function isCtrlKey(e) { return e.ctrlKey || e.metaKey; } function xpathString(str) { var parts = str.match(/[^'\"]+|['\"]/g).map(function (part) { if (\"'\" == part) { return '\"\\'\"'; } if ('\"' == part) { return \"'\\\"'\"; } return \"'\" + part + \"'\"; }); return \"concat(\" + parts.join(\",\") + \", '')\"; } function xpathHasClass(className) { return \"contains(concat(' ', normalize-space(@class), ' '), ' \" + className +\" ')\"; } a('mouseover', function (a, e, c) { if (c) { e.target.style.cursor = \"pointer\"; } }); a('click', function (a, e, c) { if (/\\bsf-dump-toggle\\b/.test(a.className)) { e.preventDefault(); if (!toggle(a, isCtrlKey(e))) { var r = doc.getElementById(a.getAttribute('href').slice(1)), s = r.previousSibling, f = r.parentNode, t = a.parentNode; t.replaceChild(r, a); f.replaceChild(a, s); t.insertBefore(s, r); f = f.firstChild.nodeValue.match(indentRx); t = t.firstChild.nodeValue.match(indentRx); if (f && t && f[0] !== t[0]) { r.innerHTML = r.innerHTML.replace(new RegExp('^'+f[0].replace(rxEsc, '\\\\$1'), 'mg'), t[0]); } if (/\\bsf-dump-compact\\b/.test(r.className)) { toggle(s, isCtrlKey(e)); } } if (c) { } else if (doc.getSelection) { try { doc.getSelection().removeAllRanges(); } catch (e) { doc.getSelection().empty(); } } else { doc.selection.empty(); } } else if (/\\bsf-dump-str-toggle\\b/.test(a.className)) { e.preventDefault(); e = a.parentNode.parentNode; e.className = e.className.replace(/\\bsf-dump-str-(expand|collapse)\\b/, a.parentNode.className); } }); elt = root.getElementsByTagName('SAMP'); len = elt.length; i = 0; while (i < len) t.push(elt[i++]); len = t.length; for (i = 0; i < len; ++i) { elt = t[i]; if ('SAMP' == elt.tagName) { a = elt.previousSibling || {}; if ('A' != a.tagName) { a = doc.createElement('A'); a.className = 'sf-dump-ref'; elt.parentNode.insertBefore(a, elt); } else { a.innerHTML += ' '; } a.title = (a.title ? a.title+'\\n[' : '[')+keyHint+'+click] Expand all children'; a.innerHTML += elt.className == 'sf-dump-compact' ? '<span>&#9654;</span>' : '<span>&#9660;</span>'; a.className += ' sf-dump-toggle'; x = 1; if ('sf-dump' != elt.parentNode.className) { x += elt.parentNode.getAttribute('data-depth')/1; } } else if (/\\bsf-dump-ref\\b/.test(elt.className) && (a = elt.getAttribute('href'))) { a = a.slice(1); elt.className += ' sf-dump-hover'; elt.className += ' '+a; if (/[\\[{]$/.test(elt.previousSibling.nodeValue)) { a = a != elt.nextSibling.id && doc.getElementById(a); try { s = a.nextSibling; elt.appendChild(a); s.parentNode.insertBefore(a, s); if (/^[@#]/.test(elt.innerHTML)) { elt.innerHTML += ' <span>&#9654;</span>'; } else { elt.innerHTML = '<span>&#9654;</span>'; elt.className = 'sf-dump-ref'; } elt.className += ' sf-dump-toggle'; } catch (e) { if ('&' == elt.innerHTML.charAt(0)) { elt.innerHTML = '&#8230;'; elt.className = 'sf-dump-ref'; } } } } } if (doc.evaluate && Array.from && root.children.length > 1) { root.setAttribute('tabindex', 0); SearchState = function () { this.nodes = []; this.idx = 0; }; SearchState.prototype = { next: function () { if (this.isEmpty()) { return this.current(); } this.idx = this.idx < (this.nodes.length - 1) ? this.idx + 1 : 0; return this.current(); }, previous: function () { if (this.isEmpty()) { return this.current(); } this.idx = this.idx > 0 ? this.idx - 1 : (this.nodes.length - 1); return this.current(); }, isEmpty: function () { return 0 === this.count(); }, current: function () { if (this.isEmpty()) { return null; } return this.nodes[this.idx]; }, reset: function () { this.nodes = []; this.idx = 0; }, count: function () { return this.nodes.length; }, }; function showCurrent(state) { var currentNode = state.current(), currentRect, searchRect; if (currentNode) { reveal(currentNode); highlight(root, currentNode, state.nodes); if ('scrollIntoView' in currentNode) { currentNode.scrollIntoView(true); currentRect = currentNode.getBoundingClientRect(); searchRect = search.getBoundingClientRect(); if (currentRect.top < (searchRect.top + searchRect.height)) { window.scrollBy(0, -(searchRect.top + searchRect.height + 5)); } } } counter.textContent = (state.isEmpty() ? 0 : state.idx + 1) + ' of ' + state.count(); } var search = doc.createElement('div'); search.className = 'sf-dump-search-wrapper sf-dump-search-hidden'; search.innerHTML = ' <input type=\"text\" class=\"sf-dump-search-input\"> <span class=\"sf-dump-search-count\">0 of 0<\\/span> <button type=\"button\" class=\"sf-dump-search-input-previous\" tabindex=\"-1\"> <svg viewBox=\"0 0 1792 1792\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1683 1331l-166 165q-19 19-45 19t-45-19L896 965l-531 531q-19 19-45 19t-45-19l-166-165q-19-19-19-45.5t19-45.5l742-741q19-19 45-19t45 19l742 741q19 19 19 45.5t-19 45.5z\"\\/><\\/svg> <\\/button> <button type=\"button\" class=\"sf-dump-search-input-next\" tabindex=\"-1\"> <svg viewBox=\"0 0 1792 1792\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M1683 808l-742 741q-19 19-45 19t-45-19L109 808q-19-19-19-45.5t19-45.5l166-165q19-19 45-19t45 19l531 531 531-531q19-19 45-19t45 19l166 165q19 19 19 45.5t-19 45.5z\"\\/><\\/svg> <\\/button> '; root.insertBefore(search, root.firstChild); var state = new SearchState(); var searchInput = search.querySelector('.sf-dump-search-input'); var counter = search.querySelector('.sf-dump-search-count'); var searchInputTimer = 0; var previousSearchQuery = ''; addEventListener(searchInput, 'keyup', function (e) { var searchQuery = e.target.value; /* Don't perform anything if the pressed key didn't change the query */ if (searchQuery === previousSearchQuery) { return; } previousSearchQuery = searchQuery; clearTimeout(searchInputTimer); searchInputTimer = setTimeout(function () { state.reset(); collapseAll(root); resetHighlightedNodes(root); if ('' === searchQuery) { counter.textContent = '0 of 0'; return; } var classMatches = [ \"sf-dump-str\", \"sf-dump-key\", \"sf-dump-public\", \"sf-dump-protected\", \"sf-dump-private\", ].map(xpathHasClass).join(' or '); var xpathResult = doc.evaluate('.//span[' + classMatches + '][contains(translate(child::text(), ' + xpathString(searchQuery.toUpperCase()) + ', ' + xpathString(searchQuery.toLowerCase()) + '), ' + xpathString(searchQuery.toLowerCase()) + ')]', root, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null); while (node = xpathResult.iterateNext()) state.nodes.push(node); showCurrent(state); }, 400); }); Array.from(search.querySelectorAll('.sf-dump-search-input-next, .sf-dump-search-input-previous')).forEach(function (btn) { addEventListener(btn, 'click', function (e) { e.preventDefault(); -1 !== e.target.className.indexOf('next') ? state.next() : state.previous(); searchInput.focus(); collapseAll(root); showCurrent(state); }) }); addEventListener(root, 'keydown', function (e) { var isSearchActive = !/\\bsf-dump-search-hidden\\b/.test(search.className); if ((114 === e.keyCode && !isSearchActive) || (isCtrlKey(e) && 70 === e.keyCode)) { /* F3 or CMD/CTRL + F */ if (70 === e.keyCode && document.activeElement === searchInput) { /* * If CMD/CTRL + F is hit while having focus on search input, * the user probably meant to trigger browser search instead. * Let the browser execute its behavior: */ return; } e.preventDefault(); search.className = search.className.replace(/\\bsf-dump-search-hidden\\b/, ''); searchInput.focus(); } else if (isSearchActive) { if (27 === e.keyCode) { /* ESC key */ search.className += ' sf-dump-search-hidden'; e.preventDefault(); resetHighlightedNodes(root); searchInput.value = ''; } else if ( (isCtrlKey(e) && 71 === e.keyCode) /* CMD/CTRL + G */ || 13 === e.keyCode /* Enter */ || 114 === e.keyCode /* F3 */ ) { e.preventDefault(); e.shiftKey ? state.previous() : state.next(); collapseAll(root); showCurrent(state); } } }); } if (0 >= options.maxStringLength) { return; } try { elt = root.querySelectorAll('.sf-dump-str'); len = elt.length; i = 0; t = []; while (i < len) t.push(elt[i++]); len = t.length; for (i = 0; i < len; ++i) { elt = t[i]; s = elt.innerText || elt.textContent; x = s.length - options.maxStringLength; if (0 < x) { h = elt.innerHTML; elt[elt.innerText ? 'innerText' : 'textContent'] = s.substring(0, options.maxStringLength); elt.className += ' sf-dump-str-collapse'; elt.innerHTML = '<span class=sf-dump-str-collapse>'+h+'<a class=\"sf-dump-ref sf-dump-str-toggle\" title=\"Collapse\"> &#9664;</a></span>'+ '<span class=sf-dump-str-expand>'+elt.innerHTML+'<a class=\"sf-dump-ref sf-dump-str-toggle\" title=\"'+x+' remaining characters\"> &#9654;</a></span>'; } } } catch (e) { } }; })(document); </script><style> .sf-js-enabled pre.sf-dump .sf-dump-compact, .sf-js-enabled .sf-dump-str-collapse .sf-dump-str-collapse, .sf-js-enabled .sf-dump-str-expand .sf-dump-str-expand { display: none; } .sf-dump-hover:hover { background-color: #B729D9; color: #FFF !important; border-radius: 2px; } pre.sf-dump { display: block; white-space: pre; padding: 5px; overflow: initial !important; } pre.sf-dump:after { content: \"\"; visibility: hidden; display: block; height: 0; clear: both; } pre.sf-dump .sf-dump-ellipsization { display: inline-flex; } pre.sf-dump a { text-decoration: none; cursor: pointer; border: 0; outline: none; color: inherit; } pre.sf-dump img { max-width: 50em; max-height: 50em; margin: .5em 0 0 0; padding: 0; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAHUlEQVQY02O8zAABilCaiQEN0EeA8QuUcX9g3QEAAjcC5piyhyEAAAAASUVORK5CYII=) #D3D3D3; } pre.sf-dump .sf-dump-ellipsis { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; } pre.sf-dump .sf-dump-ellipsis-tail { flex-shrink: 0; } pre.sf-dump code { display:inline; padding:0; background:none; } .sf-dump-public.sf-dump-highlight, .sf-dump-protected.sf-dump-highlight, .sf-dump-private.sf-dump-highlight, .sf-dump-str.sf-dump-highlight, .sf-dump-key.sf-dump-highlight { background: rgba(111, 172, 204, 0.3); border: 1px solid #7DA0B1; border-radius: 3px; } .sf-dump-public.sf-dump-highlight-active, .sf-dump-protected.sf-dump-highlight-active, .sf-dump-private.sf-dump-highlight-active, .sf-dump-str.sf-dump-highlight-active, .sf-dump-key.sf-dump-highlight-active { background: rgba(253, 175, 0, 0.4); border: 1px solid #ffa500; border-radius: 3px; } pre.sf-dump .sf-dump-search-hidden { display: none !important; } pre.sf-dump .sf-dump-search-wrapper { font-size: 0; white-space: nowrap; margin-bottom: 5px; display: flex; position: -webkit-sticky; position: sticky; top: 5px; } pre.sf-dump .sf-dump-search-wrapper > * { vertical-align: top; box-sizing: border-box; height: 21px; font-weight: normal; border-radius: 0; background: #FFF; color: #757575; border: 1px solid #BBB; } pre.sf-dump .sf-dump-search-wrapper > input.sf-dump-search-input { padding: 3px; height: 21px; font-size: 12px; border-right: none; border-top-left-radius: 3px; border-bottom-left-radius: 3px; color: #000; min-width: 15px; width: 100%; } pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-input-next, pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-input-previous { background: #F2F2F2; outline: none; border-left: none; font-size: 0; line-height: 0; } pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-input-next { border-top-right-radius: 3px; border-bottom-right-radius: 3px; } pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-input-next > svg, pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-input-previous > svg { pointer-events: none; width: 12px; height: 12px; } pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-count { display: inline-block; padding: 0 5px; margin: 0; border-left: none; line-height: 21px; font-size: 12px; }pre.sf-dump, pre.sf-dump .sf-dump-default{background-color:#18171B; color:#FF8400; line-height:1.2em; font:12px Menlo, Monaco, Consolas, monospace; word-wrap: break-word; white-space: pre-wrap; position:relative; z-index:99999; word-break: break-all}pre.sf-dump .sf-dump-num{font-weight:bold; color:#1299DA}pre.sf-dump .sf-dump-const{font-weight:bold}pre.sf-dump .sf-dump-virtual{font-style:italic}pre.sf-dump .sf-dump-str{font-weight:bold; color:#56DB3A}pre.sf-dump .sf-dump-note{color:#1299DA}pre.sf-dump .sf-dump-ref{color:#A0A0A0}pre.sf-dump .sf-dump-public{color:#FFFFFF}pre.sf-dump .sf-dump-protected{color:#FFFFFF}pre.sf-dump .sf-dump-private{color:#FFFFFF}pre.sf-dump .sf-dump-meta{color:#B729D9}pre.sf-dump .sf-dump-key{color:#56DB3A}pre.sf-dump .sf-dump-index{color:#1299DA}pre.sf-dump .sf-dump-ellipsis{color:#FF8400}pre.sf-dump .sf-dump-ns{user-select:none;}pre.sf-dump .sf-dump-ellipsis-note{color:#1299DA}</style><pre class=sf-dump id=sf-dump-1520372347 data-indent-pad=\"  \"><span class=sf-dump-const>null</span><span style=\"color: #A0A0A0;\"> // app/Http/Controllers/Api/Auth/LoginController.php:20</span>\n</pre><script>Sfdump(\"sf-dump-1520372347\")</script>\n",
+      "time": 1085,
+      "size": 16544,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792030834837",
+    "timestamp": 1792030834837,
+    "request": {
+      "id": "1792030833682",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:20:34 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\n    \"message\": \"Attempt to read property \\\"password\\\" on null\",\n    \"exception\": \"ErrorException\",\n    \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/app/Http/Controllers/Api/Auth/LoginController.php\",\n    \"line\": 22,\n    \"trace\": [\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php\",\n            \"line\": 263,\n            \"function\": \"handleError\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Bootstrap\\\\HandleExceptions\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/app/Http/Controllers/Api/Auth/LoginController.php\",\n            \"line\": 22,\n            \"function\": \"{closure:Illuminate\\\\Foundation\\\\Bootstrap\\\\HandleExceptions::forwardsTo():262}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Bootstrap\\\\HandleExceptions\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php\",\n            \"line\": 46,\n            \"function\": \"__invoke\",\n            \"class\": \"App\\\\Http\\\\Controllers\\\\Api\\\\Auth\\\\LoginController\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 276,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\ControllerDispatcher\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 216,\n            \"function\": \"runController\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 822,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Routing\\\\Router::runRouteWithinStack():821}\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php\",\n            \"line\": 52,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\SubstituteBindings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 821,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 800,\n            \"function\": \"runRouteWithinStack\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 764,\n            \"function\": \"runRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 753,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 200,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Foundation\\\\Http\\\\Kernel::dispatchToRouter():197}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php\",\n            \"line\": 51,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php\",\n            \"line\": 110,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php\",\n            \"line\": 74,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php\",\n            \"line\": 58,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php\",\n            \"line\": 22,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\InvokeDeferredCallbacks\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php\",\n            \"line\": 28,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePathEncoding\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 175,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 144,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php\",\n            \"line\": 1227,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/public/index.php\",\n            \"line\": 20,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php\",\n            \"line\": 23,\n            \"function\": \"require_once\"\n        }\n    ]\n}",
+      "time": 1144,
+      "size": 13724,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792030888856",
+    "timestamp": 1792030888856,
+    "request": {
+      "id": "1792030887793",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "text/plain",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "raw",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:21:28 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"request\":[],\"user\":null}",
+      "time": 1051,
+      "size": 26,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792030900920",
+    "timestamp": 1792030900920,
+    "request": {
+      "id": "1792030900841",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "json",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}"
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:21:40 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"request\":[],\"user\":null}",
+      "time": 73,
+      "size": 26,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792030933660",
+    "timestamp": 1792030933660,
+    "request": {
+      "id": "1792030933549",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "test@example.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "password",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:22:13 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"request\":{\"email\":\"test@example.com\",\"password\":\"password\"},\"user\":{\"id\":1,\"name\":\"Test User\",\"email\":\"test@example.com\",\"email_verified_at\":\"2026-10-15T02:17:10.000000Z\",\"created_at\":\"2026-10-15T02:17:11.000000Z\",\"updated_at\":\"2026-10-15T02:17:11.000000Z\"}}",
+      "time": 103,
+      "size": 260,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792030958073",
+    "timestamp": 1792030958073,
+    "request": {
+      "id": "1792030955987",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "test@example.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "password",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:22:38 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\n    \"message\": \"Call to undefined method App\\\\Models\\\\User::createToken()\",\n    \"exception\": \"BadMethodCallException\",\n    \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php\",\n    \"line\": 67,\n    \"trace\": [\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php\",\n            \"line\": 36,\n            \"function\": \"throwBadMethodCallException\",\n            \"class\": \"Illuminate\\\\Database\\\\Eloquent\\\\Model\",\n            \"type\": \"::\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php\",\n            \"line\": 2844,\n            \"function\": \"forwardCallTo\",\n            \"class\": \"Illuminate\\\\Database\\\\Eloquent\\\\Model\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/app/Http/Controllers/Api/Auth/LoginController.php\",\n            \"line\": 26,\n            \"function\": \"__call\",\n            \"class\": \"Illuminate\\\\Database\\\\Eloquent\\\\Model\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php\",\n            \"line\": 46,\n            \"function\": \"__invoke\",\n            \"class\": \"App\\\\Http\\\\Controllers\\\\Api\\\\Auth\\\\LoginController\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 276,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\ControllerDispatcher\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 216,\n            \"function\": \"runController\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 822,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Routing\\\\Router::runRouteWithinStack():821}\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php\",\n            \"line\": 52,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\SubstituteBindings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 821,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 800,\n            \"function\": \"runRouteWithinStack\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 764,\n            \"function\": \"runRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 753,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 200,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Foundation\\\\Http\\\\Kernel::dispatchToRouter():197}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php\",\n            \"line\": 51,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php\",\n            \"line\": 110,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php\",\n            \"line\": 74,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php\",\n            \"line\": 58,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php\",\n            \"line\": 22,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\InvokeDeferredCallbacks\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php\",\n            \"line\": 28,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePathEncoding\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 175,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 144,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php\",\n            \"line\": 1227,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/public/index.php\",\n            \"line\": 20,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php\",\n            \"line\": 23,\n            \"function\": \"require_once\"\n        }\n    ]\n}",
+      "time": 2075,
+      "size": 13994,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792031347047",
+    "timestamp": 1792031347047,
+    "request": {
+      "id": "1792031345928",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "test@example.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "password",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:29:07 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\n    \"message\": \"Call to undefined method Laravel\\\\Sanctum\\\\NewAccessToken::plainTextToken()\",\n    \"exception\": \"Error\",\n    \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/app/Http/Controllers/Api/Auth/LoginController.php\",\n    \"line\": 26,\n    \"trace\": [\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php\",\n            \"line\": 46,\n            \"function\": \"__invoke\",\n            \"class\": \"App\\\\Http\\\\Controllers\\\\Api\\\\Auth\\\\LoginController\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 276,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\ControllerDispatcher\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 216,\n            \"function\": \"runController\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 822,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Routing\\\\Router::runRouteWithinStack():821}\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php\",\n            \"line\": 52,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\SubstituteBindings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 821,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 800,\n            \"function\": \"runRouteWithinStack\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 764,\n            \"function\": \"runRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 753,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 200,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Foundation\\\\Http\\\\Kernel::dispatchToRouter():197}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php\",\n            \"line\": 51,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php\",\n            \"line\": 110,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php\",\n            \"line\": 74,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php\",\n            \"line\": 58,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php\",\n            \"line\": 22,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\InvokeDeferredCallbacks\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php\",\n            \"line\": 28,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePathEncoding\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 175,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 144,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php\",\n            \"line\": 1227,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/public/index.php\",\n            \"line\": 20,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php\",\n            \"line\": 23,\n            \"function\": \"require_once\"\n        }\n    ]\n}",
+      "time": 1111,
+      "size": 13016,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792031367432",
+    "timestamp": 1792031367432,
+    "request": {
+      "id": "1792031366386",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "test@example.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "password",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:29:27 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\n    \"message\": \"Call to undefined method Laravel\\\\Sanctum\\\\NewAccessToken::plainTextToken()\",\n    \"exception\": \"Error\",\n    \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/app/Http/Controllers/Api/Auth/LoginController.php\",\n    \"line\": 26,\n    \"trace\": [\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php\",\n            \"line\": 46,\n            \"function\": \"__invoke\",\n            \"class\": \"App\\\\Http\\\\Controllers\\\\Api\\\\Auth\\\\LoginController\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 276,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\ControllerDispatcher\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 216,\n            \"function\": \"runController\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 822,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Routing\\\\Router::runRouteWithinStack():821}\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php\",\n            \"line\": 52,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\SubstituteBindings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 821,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 800,\n            \"function\": \"runRouteWithinStack\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 764,\n            \"function\": \"runRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 753,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 200,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Foundation\\\\Http\\\\Kernel::dispatchToRouter():197}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php\",\n            \"line\": 51,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php\",\n            \"line\": 110,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php\",\n            \"line\": 74,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php\",\n            \"line\": 58,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php\",\n            \"line\": 22,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\InvokeDeferredCallbacks\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php\",\n            \"line\": 28,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePathEncoding\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 175,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 144,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php\",\n            \"line\": 1227,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/public/index.php\",\n            \"line\": 20,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php\",\n            \"line\": 23,\n            \"function\": \"require_once\"\n        }\n    ]\n}",
+      "time": 1039,
+      "size": 13016,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792031373172",
+    "timestamp": 1792031373172,
+    "request": {
+      "id": "1792031373121",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "test@example.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "password",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 0,
+      "statusText": "Error",
+      "headers": {},
+      "body": "Request failed: fetch failed",
+      "time": 46,
+      "size": 0,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792031377709",
+    "timestamp": 1792031377709,
+    "request": {
+      "id": "1792031375570",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "test@example.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "password",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:29:37 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\n    \"message\": \"Call to undefined method Laravel\\\\Sanctum\\\\NewAccessToken::accessToken()\",\n    \"exception\": \"Error\",\n    \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/app/Http/Controllers/Api/Auth/LoginController.php\",\n    \"line\": 26,\n    \"trace\": [\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php\",\n            \"line\": 46,\n            \"function\": \"__invoke\",\n            \"class\": \"App\\\\Http\\\\Controllers\\\\Api\\\\Auth\\\\LoginController\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 276,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\ControllerDispatcher\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 216,\n            \"function\": \"runController\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 822,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Routing\\\\Router::runRouteWithinStack():821}\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php\",\n            \"line\": 52,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\SubstituteBindings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 821,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 800,\n            \"function\": \"runRouteWithinStack\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 764,\n            \"function\": \"runRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 753,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 200,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Foundation\\\\Http\\\\Kernel::dispatchToRouter():197}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php\",\n            \"line\": 51,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php\",\n            \"line\": 110,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php\",\n            \"line\": 74,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php\",\n            \"line\": 58,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php\",\n            \"line\": 22,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\InvokeDeferredCallbacks\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php\",\n            \"line\": 28,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePathEncoding\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 175,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 144,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php\",\n            \"line\": 1227,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/public/index.php\",\n            \"line\": 20,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php\",\n            \"line\": 23,\n            \"function\": \"require_once\"\n        }\n    ]\n}",
+      "time": 2128,
+      "size": 13013,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792031414170",
+    "timestamp": 1792031414170,
+    "request": {
+      "id": "1792031413151",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "test@example.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "password",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:30:14 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\n    \"message\": \"Call to undefined method Laravel\\\\Sanctum\\\\NewAccessToken::accessToken()\",\n    \"exception\": \"Error\",\n    \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/app/Http/Controllers/Api/Auth/LoginController.php\",\n    \"line\": 26,\n    \"trace\": [\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php\",\n            \"line\": 46,\n            \"function\": \"__invoke\",\n            \"class\": \"App\\\\Http\\\\Controllers\\\\Api\\\\Auth\\\\LoginController\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 276,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\ControllerDispatcher\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 216,\n            \"function\": \"runController\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 822,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Routing\\\\Router::runRouteWithinStack():821}\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php\",\n            \"line\": 52,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\SubstituteBindings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 821,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 800,\n            \"function\": \"runRouteWithinStack\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 764,\n            \"function\": \"runRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 753,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 200,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Foundation\\\\Http\\\\Kernel::dispatchToRouter():197}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php\",\n            \"line\": 51,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php\",\n            \"line\": 110,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php\",\n            \"line\": 74,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php\",\n            \"line\": 58,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php\",\n            \"line\": 22,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\InvokeDeferredCallbacks\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php\",\n            \"line\": 28,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePathEncoding\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 175,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 144,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php\",\n            \"line\": 1227,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/public/index.php\",\n            \"line\": 20,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php\",\n            \"line\": 23,\n            \"function\": \"require_once\"\n        }\n    ]\n}",
+      "time": 1010,
+      "size": 13013,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792031420976",
+    "timestamp": 1792031420976,
+    "request": {
+      "id": "1792031418838",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "test@example.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "password",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:30:20 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"token\":\"5|o1UCQSePjp2DMWGHpD116ESm4Kn1N0vY2NykWNzie85d4a39\",\"user\":{\"id\":1,\"name\":\"Test User\",\"email\":\"test@example.com\",\"email_verified_at\":\"2026-10-15T02:17:10.000000Z\",\"created_at\":\"2026-10-15T02:17:11.000000Z\",\"updated_at\":\"2026-10-15T02:17:11.000000Z\"}}",
+      "time": 2106,
+      "size": 260,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792031557811",
+    "timestamp": 1792031557811,
+    "request": {
+      "id": "1792031555655",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "test@example.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "password",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:32:37 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"token\":{\"name\":\"laravel_api_token\",\"abilities\":[\"*\"],\"expires_at\":null,\"tokenable_id\":1,\"tokenable_type\":\"App\\\\Models\\\\User\",\"updated_at\":\"2026-10-15T02:32:37.000000Z\",\"created_at\":\"2026-10-15T02:32:37.000000Z\",\"id\":6},\"user\":{\"id\":1,\"name\":\"Test User\",\"email\":\"test@example.com\",\"email_verified_at\":\"2026-10-15T02:17:10.000000Z\",\"created_at\":\"2026-10-15T02:17:11.000000Z\",\"updated_at\":\"2026-10-15T02:17:11.000000Z\"}}",
+      "time": 2145,
+      "size": 419,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792031601381",
+    "timestamp": 1792031601381,
+    "request": {
+      "id": "1792031599365",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "test@example.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "password",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:33:21 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"token\":\"7|V9OUhvn7Mmodhm6DOIiVvEsGhmghuwmCydRnRm7Ae315681e\",\"user\":{\"id\":1,\"name\":\"Test User\",\"email\":\"test@example.com\",\"email_verified_at\":\"2026-10-15T02:17:10.000000Z\",\"created_at\":\"2026-10-15T02:17:11.000000Z\",\"updated_at\":\"2026-10-15T02:17:11.000000Z\"}}",
+      "time": 2006,
+      "size": 260,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792032708484",
+    "timestamp": 1792032708484,
+    "request": {
+      "id": "1792032706259",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "formDataFiles": [
+          {
+            "key": "name",
+            "value": "Syauqi",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "sauqi",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "12345678",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:51:48 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"token\":\"8|rX8ar6Evetq9jd2nScVNnysqq9PPyKoqVGgksVeG425ea3ce\",\"user\":{\"name\":\"Syauqi\",\"email\":\"sauqi\",\"updated_at\":\"2026-10-15T02:51:48.000000Z\",\"created_at\":\"2026-10-15T02:51:48.000000Z\",\"id\":2}}",
+      "time": 2212,
+      "size": 196,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792032747247",
+    "timestamp": 1792032747247,
+    "request": {
+      "id": "1792032746115",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "formDataFiles": [
+          {
+            "key": "name",
+            "value": "Syauqi",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "sauqi",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "12345678",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 422,
+      "statusText": "Unprocessable Content",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:52:27 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"message\":\"The email field must be a valid email address.\",\"errors\":{\"email\":[\"The email field must be a valid email address.\"]}}",
+      "time": 1120,
+      "size": 130,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792032762577",
+    "timestamp": 1792032762577,
+    "request": {
+      "id": "1792032761388",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "formDataFiles": [
+          {
+            "key": "name",
+            "value": "Syauqi",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "sauqi@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "12345678",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:52:42 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"token\":\"1|lqUTgsTmAGiB4UaL5j3s7aMwnatIrOI1qRcz73na9d012c95\",\"user\":{\"name\":\"Syauqi\",\"email\":\"sauqi@gmail.com\",\"updated_at\":\"2026-10-15T02:52:42.000000Z\",\"created_at\":\"2026-10-15T02:52:42.000000Z\",\"id\":2}}",
+      "time": 1182,
+      "size": 206,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792032775607",
+    "timestamp": 1792032775607,
+    "request": {
+      "id": "1792032639249c8hu",
+      "name": "Login",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "sauqi@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "password",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 422,
+      "statusText": "Unprocessable Content",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:52:55 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"message\":\"User atau password anda salah.\",\"errors\":{\"email\":[\"User atau password anda salah.\"]}}",
+      "time": 1044,
+      "size": 98,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792032787776",
+    "timestamp": 1792032787776,
+    "request": {
+      "id": "1792032639249c8hu",
+      "name": "Login",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "sauqi@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "12345678",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 02:53:07 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"token\":\"2|R4TPS2huxLOmjxvjC7unfw2e9U43kabdYInnwtaQfecc749b\",\"user\":{\"id\":2,\"name\":\"Syauqi\",\"email\":\"sauqi@gmail.com\",\"email_verified_at\":null,\"created_at\":\"2026-10-15T02:52:42.000000Z\",\"updated_at\":\"2026-10-15T02:52:42.000000Z\"}}",
+      "time": 1045,
+      "size": 231,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792033872128",
+    "timestamp": 1792033872128,
+    "request": {
+      "id": "1792033871976",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/logout",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer 2|R4TPS2huxLOmjxvjC7unfw2e9U43kabdYInnwtaQfecc749b",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "2|R4TPS2huxLOmjxvjC7unfw2e9U43kabdYInnwtaQfecc749b"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 500,
+      "statusText": "Internal Server Error",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 03:11:12 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\n    \"message\": \"Call to a member function currentAccessToken() on null\",\n    \"exception\": \"Error\",\n    \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/app/Http/Controllers/Api/Auth/LogoutController.php\",\n    \"line\": 15,\n    \"trace\": [\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php\",\n            \"line\": 46,\n            \"function\": \"__invoke\",\n            \"class\": \"App\\\\Http\\\\Controllers\\\\Api\\\\Auth\\\\LogoutController\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 276,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\ControllerDispatcher\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Route.php\",\n            \"line\": 216,\n            \"function\": \"runController\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 822,\n            \"function\": \"run\",\n            \"class\": \"Illuminate\\\\Routing\\\\Route\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Routing\\\\Router::runRouteWithinStack():821}\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php\",\n            \"line\": 52,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Routing\\\\Middleware\\\\SubstituteBindings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 821,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 800,\n            \"function\": \"runRouteWithinStack\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 764,\n            \"function\": \"runRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Routing/Router.php\",\n            \"line\": 753,\n            \"function\": \"dispatchToRoute\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 200,\n            \"function\": \"dispatch\",\n            \"class\": \"Illuminate\\\\Routing\\\\Router\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 180,\n            \"function\": \"{closure:Illuminate\\\\Foundation\\\\Http\\\\Kernel::dispatchToRouter():197}\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:Illuminate\\\\Pipeline\\\\Pipeline::prepareDestination():178}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php\",\n            \"line\": 31,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\ConvertEmptyStringsToNull\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php\",\n            \"line\": 21,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php\",\n            \"line\": 51,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TransformsRequest\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\TrimStrings\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php\",\n            \"line\": 27,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePostSize\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php\",\n            \"line\": 110,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\PreventRequestsDuringMaintenance\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php\",\n            \"line\": 74,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\HandleCors\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php\",\n            \"line\": 58,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\TrustProxies\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php\",\n            \"line\": 22,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Middleware\\\\InvokeDeferredCallbacks\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php\",\n            \"line\": 28,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 219,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Http\\\\Middleware\\\\ValidatePathEncoding\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php\",\n            \"line\": 137,\n            \"function\": \"{closure:{closure:Illuminate\\\\Pipeline\\\\Pipeline::carry():194}:195}\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 175,\n            \"function\": \"then\",\n            \"class\": \"Illuminate\\\\Pipeline\\\\Pipeline\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php\",\n            \"line\": 144,\n            \"function\": \"sendRequestThroughRouter\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/Application.php\",\n            \"line\": 1227,\n            \"function\": \"handle\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Http\\\\Kernel\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/public/index.php\",\n            \"line\": 20,\n            \"function\": \"handleRequest\",\n            \"class\": \"Illuminate\\\\Foundation\\\\Application\",\n            \"type\": \"->\"\n        },\n        {\n            \"file\": \"/home/sialee/Documents/Laravel/laravel-rest-api-starter/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php\",\n            \"line\": 23,\n            \"function\": \"require_once\"\n        }\n    ]\n}",
+      "time": 144,
+      "size": 12997,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792033940903",
+    "timestamp": 1792033940903,
+    "request": {
+      "id": "1792033939841",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/logout",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer 2|R4TPS2huxLOmjxvjC7unfw2e9U43kabdYInnwtaQfecc749b",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "2|R4TPS2huxLOmjxvjC7unfw2e9U43kabdYInnwtaQfecc749b"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 03:12:20 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"user\":null}",
+      "time": 1048,
+      "size": 13,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792033953676",
+    "timestamp": 1792033953676,
+    "request": {
+      "id": "1792032639249c8hu",
+      "name": "Login",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "sauqi@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "12345678",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 03:12:33 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"token\":\"3|QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d\",\"user\":{\"id\":2,\"name\":\"Syauqi\",\"email\":\"sauqi@gmail.com\",\"email_verified_at\":null,\"created_at\":\"2026-10-15T02:52:42.000000Z\",\"updated_at\":\"2026-10-15T02:52:42.000000Z\"}}",
+      "time": 1189,
+      "size": 231,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792033973029",
+    "timestamp": 1792033973029,
+    "request": {
+      "id": "1792033972930",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/logout",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 03:12:53 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"user\":null}",
+      "time": 89,
+      "size": 13,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792033978297",
+    "timestamp": 1792033978297,
+    "request": {
+      "id": "1792033978222",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/logout",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer 3|QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "3|QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 03:12:58 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"user\":null}",
+      "time": 66,
+      "size": 13,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792033999840",
+    "timestamp": 1792033999840,
+    "request": {
+      "id": "1792033998770",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/logout",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer 3|QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "3|QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 03:13:19 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"user\":{\"id\":2,\"name\":\"Syauqi\",\"email\":\"sauqi@gmail.com\",\"email_verified_at\":null,\"created_at\":\"2026-10-15T02:52:42.000000Z\",\"updated_at\":\"2026-10-15T02:52:42.000000Z\"}}",
+      "time": 1054,
+      "size": 170,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792034018375",
+    "timestamp": 1792034018375,
+    "request": {
+      "id": "1792034017229",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/logout",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer 3|QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "3|QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 03:13:38 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"message\":\"Successfully logged out\"}",
+      "time": 1133,
+      "size": 37,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792034022246",
+    "timestamp": 1792034022246,
+    "request": {
+      "id": "1792034022161",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/logout",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer 3|QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "3|QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 03:13:42 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"message\":\"Unauthenticated.\"}",
+      "time": 77,
+      "size": 30,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792034036640",
+    "timestamp": 1792034036640,
+    "request": {
+      "id": "1792034036543",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/logout",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer 2|R4TPS2huxLOmjxvjC7unfw2e9U43kabdYInnwtaQfecc749b",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "2|R4TPS2huxLOmjxvjC7unfw2e9U43kabdYInnwtaQfecc749b"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 200,
+      "statusText": "OK",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 03:13:56 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"message\":\"Successfully logged out\"}",
+      "time": 89,
+      "size": 37,
+      "cookies": []
+    }
+  },
+  {
+    "id": "1792034043019",
+    "timestamp": 1792034043019,
+    "request": {
+      "id": "1792034042941",
+      "name": "New Request",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/logout",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "enabled": true
+        },
+        {
+          "key": "Authorization",
+          "value": "Bearer 2|R4TPS2huxLOmjxvjC7unfw2e9U43kabdYInnwtaQfecc749b",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "none"
+      },
+      "auth": {
+        "type": "bearer",
+        "bearer": {
+          "token": "2|R4TPS2huxLOmjxvjC7unfw2e9U43kabdYInnwtaQfecc749b"
+        }
+      },
+      "inheritAuth": true
+    },
+    "response": {
+      "status": 401,
+      "statusText": "Unauthorized",
+      "headers": {
+        "access-control-allow-origin": "*",
+        "cache-control": "no-cache, private",
+        "connection": "close",
+        "content-type": "application/json",
+        "date": "Thu, 15 Oct 2026 03:14:03 GMT",
+        "host": "127.0.0.1:8000",
+        "x-powered-by": "PHP/8.5.10"
+      },
+      "body": "{\"message\":\"Unauthenticated.\"}",
+      "time": 70,
+      "size": 30,
+      "cookies": []
+    }
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "1792032639249",
+    "name": "Default",
+    "folders": [],
+    "requests": [
+      {
+        "id": "1792032639249c8hu",
+        "name": "New Request",
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/api/auth/login",
+        "params": [],
+        "headers": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "enabled": true
+          }
+        ],
+        "body": {
+          "type": "form-data",
+          "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+          "formDataFiles": [
+            {
+              "key": "email",
+              "value": "test@example.com",
+              "enabled": true,
+              "fieldType": "text"
+            },
+            {
+              "key": "password",
+              "value": "password",
+              "enabled": true,
+              "fieldType": "text"
+            }
+          ]
+        },
+        "auth": {
+          "type": "none"
+        },
+        "inheritAuth": true
+      },
+      {
+        "id": "1792033097644l5tc",
+        "name": "Register",
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/api/auth/register",
+        "params": [],
+        "headers": [
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "enabled": true
+          }
+        ],
+        "body": {
+          "type": "form-data",
+          "formDataFiles": [
+            {
+              "key": "name",
+              "value": "Syauqi",
+              "enabled": true,
+              "fieldType": "text"
+            },
+            {
+              "key": "email",
+              "value": "sauqi@gmail.com",
+              "enabled": true,
+              "fieldType": "text"
+            },
+            {
+              "key": "password",
+              "value": "12345678",
+              "enabled": true,
+              "fieldType": "text"
+            }
+          ]
+        },
+        "auth": {
+          "type": "none"
+        },
+        "inheritAuth": true
+      }
+    ],
+    "variables": []
+  }
+]

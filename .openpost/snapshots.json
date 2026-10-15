@@ -1,0 +1,318 @@
+[
+  {
+    "id": "1792032639253ldi4mxrwahf",
+    "name": "New Request 10/15/2026, 9:50:39 AM",
+    "createdAt": 1792032639253,
+    "baseRequest": {
+      "id": "1792032639249c8hu",
+      "name": "Login",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/login",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+        "formDataFiles": [
+          {
+            "key": "email",
+            "value": "sauqi@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "12345678",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "records": [
+      {
+        "id": "1792032775610h9x8l7vtsbl",
+        "timestamp": 1792032775610,
+        "request": {
+          "id": "1792032639249c8hu",
+          "name": "Login",
+          "method": "POST",
+          "url": "http://127.0.0.1:8000/api/auth/login",
+          "params": [],
+          "headers": [
+            {
+              "key": "Accept",
+              "value": "application/json",
+              "enabled": true
+            }
+          ],
+          "body": {
+            "type": "form-data",
+            "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+            "formDataFiles": [
+              {
+                "key": "email",
+                "value": "sauqi@gmail.com",
+                "enabled": true,
+                "fieldType": "text"
+              },
+              {
+                "key": "password",
+                "value": "password",
+                "enabled": true,
+                "fieldType": "text"
+              }
+            ]
+          },
+          "auth": {
+            "type": "none"
+          },
+          "inheritAuth": true
+        },
+        "response": {
+          "status": 422,
+          "statusText": "Unprocessable Content",
+          "headers": {
+            "access-control-allow-origin": "*",
+            "cache-control": "no-cache, private",
+            "connection": "close",
+            "content-type": "application/json",
+            "date": "Thu, 15 Oct 2026 02:52:55 GMT",
+            "host": "127.0.0.1:8000",
+            "x-powered-by": "PHP/8.5.10"
+          },
+          "body": "{\"message\":\"User atau password anda salah.\",\"errors\":{\"email\":[\"User atau password anda salah.\"]}}",
+          "time": 1044,
+          "size": 98,
+          "actualRequest": {
+            "method": "POST",
+            "url": "http://127.0.0.1:8000/api/auth/login",
+            "headers": {
+              "Accept": "application/json"
+            },
+            "body": "[form-data]",
+            "protocol": "HTTP/1.1",
+            "certificateNames": "System Trust Store"
+          },
+          "cookies": []
+        }
+      },
+      {
+        "id": "17920327877809l0x18fj69v",
+        "timestamp": 1792032787780,
+        "request": {
+          "id": "1792032639249c8hu",
+          "name": "Login",
+          "method": "POST",
+          "url": "http://127.0.0.1:8000/api/auth/login",
+          "params": [],
+          "headers": [
+            {
+              "key": "Accept",
+              "value": "application/json",
+              "enabled": true
+            }
+          ],
+          "body": {
+            "type": "form-data",
+            "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+            "formDataFiles": [
+              {
+                "key": "email",
+                "value": "sauqi@gmail.com",
+                "enabled": true,
+                "fieldType": "text"
+              },
+              {
+                "key": "password",
+                "value": "12345678",
+                "enabled": true,
+                "fieldType": "text"
+              }
+            ]
+          },
+          "auth": {
+            "type": "none"
+          },
+          "inheritAuth": true
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": {
+            "access-control-allow-origin": "*",
+            "cache-control": "no-cache, private",
+            "connection": "close",
+            "content-type": "application/json",
+            "date": "Thu, 15 Oct 2026 02:53:07 GMT",
+            "host": "127.0.0.1:8000",
+            "x-powered-by": "PHP/8.5.10"
+          },
+          "body": "{\"token\":\"2|R4TPS2huxLOmjxvjC7unfw2e9U43kabdYInnwtaQfecc749b\",\"user\":{\"id\":2,\"name\":\"Syauqi\",\"email\":\"sauqi@gmail.com\",\"email_verified_at\":null,\"created_at\":\"2026-10-15T02:52:42.000000Z\",\"updated_at\":\"2026-10-15T02:52:42.000000Z\"}}",
+          "time": 1045,
+          "size": 231,
+          "actualRequest": {
+            "method": "POST",
+            "url": "http://127.0.0.1:8000/api/auth/login",
+            "headers": {
+              "Accept": "application/json"
+            },
+            "body": "[form-data]",
+            "protocol": "HTTP/1.1",
+            "certificateNames": "System Trust Store"
+          },
+          "cookies": []
+        }
+      },
+      {
+        "id": "1792033953680wr19ir0cole",
+        "timestamp": 1792033953680,
+        "request": {
+          "id": "1792032639249c8hu",
+          "name": "Login",
+          "method": "POST",
+          "url": "http://127.0.0.1:8000/api/auth/login",
+          "params": [],
+          "headers": [
+            {
+              "key": "Accept",
+              "value": "application/json",
+              "enabled": true
+            }
+          ],
+          "body": {
+            "type": "form-data",
+            "raw": "{\n  'email': 'test@example.com',\n  'password': 'password'\n}",
+            "formDataFiles": [
+              {
+                "key": "email",
+                "value": "sauqi@gmail.com",
+                "enabled": true,
+                "fieldType": "text"
+              },
+              {
+                "key": "password",
+                "value": "12345678",
+                "enabled": true,
+                "fieldType": "text"
+              }
+            ]
+          },
+          "auth": {
+            "type": "none"
+          },
+          "inheritAuth": true
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "headers": {
+            "access-control-allow-origin": "*",
+            "cache-control": "no-cache, private",
+            "connection": "close",
+            "content-type": "application/json",
+            "date": "Thu, 15 Oct 2026 03:12:33 GMT",
+            "host": "127.0.0.1:8000",
+            "x-powered-by": "PHP/8.5.10"
+          },
+          "body": "{\"token\":\"3|QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d\",\"user\":{\"id\":2,\"name\":\"Syauqi\",\"email\":\"sauqi@gmail.com\",\"email_verified_at\":null,\"created_at\":\"2026-10-15T02:52:42.000000Z\",\"updated_at\":\"2026-10-15T02:52:42.000000Z\"}}",
+          "time": 1189,
+          "size": 231,
+          "actualRequest": {
+            "method": "POST",
+            "url": "http://127.0.0.1:8000/api/auth/login",
+            "headers": {
+              "Accept": "application/json"
+            },
+            "body": "[form-data]",
+            "protocol": "HTTP/1.1",
+            "certificateNames": "System Trust Store"
+          },
+          "cookies": []
+        }
+      }
+    ],
+    "responseContracts": [
+      {
+        "status": 200,
+        "latestVariantId": "1792033956712y3o2hvdmu5",
+        "variants": [
+          {
+            "id": "1792033956712y3o2hvdmu5",
+            "signature": "json:{token:string,user:{created_at:string,email:string,email_verified_at:null,id:number,name:string,updated_at:string}}",
+            "summary": "{token:string,user:{created_at:string,email:string,email_verified_at:null,id:number,name:string,updated_at:string}}",
+            "sampleBody": "{\"token\":\"3|QOvdjDlLY3KQoEsG23cnvqHpSuKHVPVYv6MohYGE0b5c269d\",\"user\":{\"id\":2,\"name\":\"Syauqi\",\"email\":\"sauqi@gmail.com\",\"email_verified_at\":null,\"created_at\":\"2026-10-15T02:52:42.000000Z\",\"updated_at\":\"2026-10-15T02:52:42.000000Z\"}}",
+            "contentType": "application/json",
+            "firstSeen": 1792033953680,
+            "lastSeen": 1792033953680,
+            "occurrences": 1,
+            "history": [
+              {
+                "timestamp": 1792033953680,
+                "recordId": "1792033953680wr19ir0cole"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "17920330976484kwvnnewuh9",
+    "name": "Register 10/15/2026, 9:58:17 AM",
+    "createdAt": 1792033097648,
+    "baseRequest": {
+      "id": "1792033097644l5tc",
+      "name": "Register",
+      "method": "POST",
+      "url": "http://127.0.0.1:8000/api/auth/register",
+      "params": [],
+      "headers": [
+        {
+          "key": "Accept",
+          "value": "application/json",
+          "enabled": true
+        }
+      ],
+      "body": {
+        "type": "form-data",
+        "formDataFiles": [
+          {
+            "key": "name",
+            "value": "Syauqi",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "email",
+            "value": "sauqi@gmail.com",
+            "enabled": true,
+            "fieldType": "text"
+          },
+          {
+            "key": "password",
+            "value": "12345678",
+            "enabled": true,
+            "fieldType": "text"
+          }
+        ]
+      },
+      "auth": {
+        "type": "none"
+      },
+      "inheritAuth": true
+    },
+    "records": [],
+    "responseContracts": []
+  }
+]

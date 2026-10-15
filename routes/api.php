@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\Api\Auth\LoginController;
+use App\Http\Controllers\Api\Auth\LogoutController;
+use App\Http\Controllers\Api\Auth\RegisterController;
 use App\Http\Controllers\Api\V1\TaskController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -10,4 +13,10 @@ Route::get('/user', function (Request $request) {
 
 Route::prefix('v1')->group(function () {
     Route::apiResource('/tasks', TaskController::class);
+});
+
+Route::prefix('auth')->group(function () {
+    Route::post('/login', LoginController::class);
+    Route::post('/register', RegisterController::class);
+    Route::post('/logout', LogoutController::class)->middleware('auth:sanctum');
 });
